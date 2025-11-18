@@ -5,7 +5,7 @@
 }
 
 ul{
-    background-color: black;
+    background-color: white;
     width: 400px;
     height: 50px;
     border-radius: 40px;
@@ -14,6 +14,9 @@ ul{
     top: 30px;
     right: 40px;
     z-index: 3;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 nav ul li{
@@ -36,13 +39,14 @@ nav ul li a:hover{
 }
 
 .slider-wrapper {
-    position: relative;
-    max-width: 48rem;
+    
     margin: 0 auto;
 }
 
 .slider {
     display: flex;
+    margin-left: 50px;
+    height: 650px;
     aspect-ratio: 16 / 9;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -85,3 +89,214 @@ nav ul li a:hover{
 
 }
 
+.haribo-section{
+    margin-top: 250px;
+}
+
+.haribo-products{
+    float: left;
+    margin-left: 75px;
+
+}
+
+.haribo-story{
+    float: right;
+    margin-right: 75px;
+    margin-bottom: 225px;
+}
+
+#haribo-image1{
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 55% 45% 60% 40% / 40% 60% 45% 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#haribo-image2{
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 58% 42% 60% 40% / 40% 60% 55% 45%;
+}
+
+.haribo-text{
+    margin-top: 7px;
+    font-family: sans-serif;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+#video-div{
+    clear: both;
+    background-color: red;
+}
+
+#image-video-text{
+    margin-top: 195px;
+    height: 367.06px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#image-video{
+    float: right;
+    height: auto;
+    width: 650px;
+}
+
+#image-contact-div{
+    margin-top: 240px;
+    margin-left: 80px;
+}
+
+#image-contact{
+    border-radius: 40% 60% 60% 40% / 30% 40% 60% 50%;
+    overflow: hidden;
+    height: 600px;
+    width: auto;
+}
+
+#contact-text{
+    margin-top: 225px;
+    float: right;
+    width: 510px;
+    right: 25px;
+}
+
+#questions-title{
+    font-family: sans-serif;
+    font-size: 60px;
+    color: rgb(80, 80, 174);
+}
+
+#p-title{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#a-title{
+    text-decoration: none;
+    color: black;
+    font-weight: 60px;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 35px;
+    padding: 35px;
+}
+
+#haribo-tedys{
+    clear: both;
+    background-color: rgb(136, 209, 81);
+    margin-bottom: 300px;
+}
+
+#tedy-text{
+    margin-top: 195px;
+    height: 485.65px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#p-tedy{
+    font-family: sans-serif;
+    text-align: left;
+    margin-top: 65px;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+
+#a-tedy{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 45px;
+    color: white;
+    margin-left: 70px;
+}
+
+#h1-tedy{
+    color: rgba(235, 235, 15, 0.893);
+    font-size: 70px;
+    margin-top: 35px;
+    font-family: sans-serif;
+    margin-left: 80px;
+}
+
+#image-tedys{
+    float: right;
+    height: auto;
+    width: 650px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 80px;
+    background-color: rgb(31, 89, 214);
+    width: 100%;
+    margin-top: 150px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-left: 100px;
+    float: left;
+}
+
+.footer-a {
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;  
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-a:hover {
+    color: yellow;
+}
+
+#haribo-bear-image{
+    height: 450px;
+    margin-left: 120px;
+}
+
+#copyright{
+    color: white;
+    background-color: rgb(31, 89, 214) ;
+}
+
+#copyright-p{
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+
+#final-message{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(31, 89, 214) ;
+    height: 60px;
+}
+
+#final-message-p{
+    padding: 15px;
+    color: white;   
+    font-size: 30px;
+    font-weight: bold;
+}
